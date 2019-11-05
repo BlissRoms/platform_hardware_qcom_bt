@@ -49,6 +49,9 @@ extern "C" {
 #include <stdlib.h>
 #include <string.h>
 #include <termios.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/uio.h>
 
 #include "bt_hci_bdroid.h"
 #include "hci_uart.h"
